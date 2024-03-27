@@ -1,0 +1,53 @@
+/* Estilos para centralizar o conteúdo */
+.centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: calc(100vh - 180px); /* Ajuste conforme necessário para deixar espaço para o cabeçalho e rodapé */
+}
+
+/* Estilos para os projetos no portfólio */
+.conteudo-projetos-titulo {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.projeto {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.projeto-imagem {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.projeto-descricao {
+    flex-grow: 1;
+}
+
+.projeto-titulo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.projeto-link {
+    display: inline-block;
+    background-color: #243138;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.projeto-link:hover {
+    background-color: #52b3c1; /* Amarelo ao passar o mouse */
+}
+
+/* Outros estilos podem ser adicionados conforme necessário */

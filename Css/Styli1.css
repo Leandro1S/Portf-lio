@@ -1,0 +1,194 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Estilos para o cabeçalho */
+.cabecalho {
+    background-color: #243138;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.cabecalho-imagem {
+    width: 125px;
+    height: auto;
+}
+
+/* Estilos para o menu de navegação */
+.cabecalho-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho-menu-item {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.cabecalho-menu-item:hover {
+    color: #52b3c1; /* Amarelo ao passar o mouse */
+}
+
+/* Estilos para as seções principais */
+.conteudo {
+    padding: 20px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.conteudo-principal-descrito {
+    flex-basis: 60%;
+}
+
+.conteudo-principal-descrito-titulo {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.conteudo-principal-descrito-subtitulo {
+    margin-bottom: 20px;
+}
+
+.conteudo-principal-imagem {
+    flex-basis: 30%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos para os projetos */
+.conteudo-projetos-titulo {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.projeto {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.projeto-imagem {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.projeto-descricao {
+    flex-grow: 1;
+}
+
+.projeto-titulo {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.projeto-link {
+    display: inline-block;
+    background-color: #243138;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.projeto-link:hover {
+    background-color: #52b3c1; /* Amarelo ao passar o mouse */
+}
+
+/* Estilos para o formulário de contato */
+.conteudo-contato-titulo {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.formulario-contato {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.botao-enviar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #243138;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-enviar:hover {
+    background-color: #52b3c1; /* Amarelo ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+.rodape {
+    background-color: #243138;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.rodape-imagem {
+    width: 80px;
+    height: auto;
+}
+
+/* Estilos para centralizar o conteúdo */
+.centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: calc(100vh - 180px); /* Ajuste conforme necessário para deixar espaço para o cabeçalho e rodapé */
+}
+
+.conteudo-principal {
+    max-width: 800px; /* Ajuste conforme necessário */
+}
+
+.conteudo-principal-descrito {
+    margin-bottom: 30px;
+}
+
+.conteudo-principal-imagem {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
